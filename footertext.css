@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#news .heading{
+	font-size: 40px;
+	margin-top: 20px;
+	margin-left: 20px;	
+    font-weight: 600;
+    color: #011b3a;	
+    text-shadow: 6px 2px 6px #b7b2b2;
+}
+
+
+#news .blogs-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 400px);
+	grid-gap: 30px;
+	justify-content: center;
+}
+.box-container img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;      
+}
+
+.content{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 1fr);
+	width: 100%;
+	margin-top: 10px;
+}
+
+.content h3{
+	font-size: 20px;
+	font-weight: 900;
+	color: #344b68;
+	padding-bottom: 5px;
+}
+.content p{
+	font-size: 18px;
+	font-weight: 600;
+	color: #595959;
+}
+
+
+.process-btn{
+    padding: 5px;
+	margin-left: -5px;
+
+    
+}
+
+.process-btn a.blue{
+    background-color: #fdc93b;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.7s ease;
+    
+}
+
+.icon{
+	margin-top: 5px;
+}
+
+
+.process-btn .blue:hover {
+    color: #fff;
+    background-color: #d82721;
+    transition: 0.7s ease;
+}

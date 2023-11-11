@@ -1,0 +1,11 @@
+{
+  "name": "vmsscript",
+  "version": "1.0.0",
+  "description": "virtue model school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ADNNiG",
+  "license": "ISC"
+}
